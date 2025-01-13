@@ -1,0 +1,153 @@
+/* Merged CSS */
+
+/* Reset some default styling and set the font family */
+BODY,
+H2,
+H3,
+H4,
+H5,
+H6,
+TH,
+TD {
+  font-family: arial, helvetica, sans-serif;
+}
+
+/* Styles for the body */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('images/purpleScenery.gif');
+  background-size: cover; /* Add this line to adjust the background image size */
+}
+
+:root {
+  --color-background: #000119;
+  --stroke-width: calc(1em / 16);
+  --font-size: 10vmin;
+  --font-weight: 700;
+  --letter-spacing: calc(1em / 8);
+}
+
+
+/* Custom styling for headings */
+@keyframes rainbow {
+  0% {color: red;}
+  14% {color: orange;}
+  28% {color: yellow;}
+  42% {color: green;}
+  57% {color: blue;}
+  71% {color: indigo;}
+  85% {color: violet;}
+  100% {color: red;}
+}
+
+h1 {
+    position: relative;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    color: #99eeb4;
+    animation-name: rainbow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Flex layout styles */
+.flex {
+  display: flex;
+  row-gap: 1em;
+  column-gap: 1em;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+/* Styling for the main content container */
+/* Styles for the main content container */
+/* Styles for the main content container */
+/* Styles for the main content container */
+main {
+  background-color: rgb(113, 68, 187); /* Initial purple background color */
+  border-radius: 0.25em;
+  box-shadow: 0em 0em 0.5em rgb(107, 83, 50);
+  flex-wrap: wrap;
+  padding: 1em;
+  max-width: 400px;
+}
+
+
+/* Other styles remain the same */
+/* ... */
+
+
+/* Other styles remain the same */
+/* ... */
+
+
+/* Other styles remain the same */
+/* ... */
+
+
+
+/* Styling for SVG elements */
+svg {
+  border-radius: 0.1em;
+  border: 5px solid rgb(65, 54, 40);
+}
+
+svg rect {
+  stroke: black;
+  stroke-width: 2px;
+}
+
+/* Styling for specific SVG elements */
+#svgCanvas {
+  background-color: #75ACD6; /* Use the color #75ACD6 */
+}
+
+
+#svgPreview {
+  background-color: #75ACD6; /* Use the color #75ACD6 */
+}
+
+/* Styling for the info container */
+#info {
+  width: 160px;
+  margin-top: 1em;
+}
+
+#info > .text {
+  font-weight: bold;
+}
+
+/* Float alignment styles */
+.left {
+  font-size: 1.1em;
+  float: left;
+}
+
+.right {
+  font-size: 1em;
+  float: right;
+}
+
+/* Styling for the "Game Over" text */
+#gameOver {
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* Additional custom styling can be added here */
