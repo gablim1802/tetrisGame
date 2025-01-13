@@ -10,7 +10,7 @@
 
         /* Base body styles */
         body {
-            background-image: url('/assets/purpleScenery-f75997c0.gif');
+            background-image: url('/images/purpleScenery.gif');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -261,16 +261,16 @@
             // Set the background with a fade effect
             switch (backgroundNumber) {
                 case 1:
-                    body.style.backgroundImage = "url('../images/purpleScenery.gif')";
+                    body.style.backgroundImage = "url('/images/purpleScenery.gif')";
                     break;
                 case 2:
-                    body.style.backgroundImage = "url('../images/Mood.gif')";
+                    body.style.backgroundImage = "url('/images/Mood.gif')";
                     break;
                 case 3:
-                    body.style.backgroundImage = "url('../images/download.gif')";
+                    body.style.backgroundImage = "url('/images/download.gif')";
                     break;
                 default:
-                    body.style.backgroundImage = "url('/assets/purpleScenery-f75997c0.gif')";
+                    body.style.backgroundImage = "url('/images/purpleScenery.gif')";
             }
         }
 
@@ -278,7 +278,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             document.querySelector('.theme-button').classList.add('active');
             // Ensure the initial background is set
-            document.body.style.backgroundImage = "url('/assets/purpleScenery-f75997c0.gif')";
+            document.body.style.backgroundImage = "url('/images/purpleScenery.gif')";
         });
     </script>
 </body>
